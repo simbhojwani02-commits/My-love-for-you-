@@ -15,8 +15,6 @@ body{
     overflow-x:hidden;
 }
 
-/* Animated stars */
-
 .stars{
     position:fixed;
     inset:0;
@@ -31,15 +29,12 @@ body{
 }
 
 @keyframes moveStars{
-
 from{
 transform:translateY(0);
 }
-
 to{
 transform:translateY(-500px);
 }
-
 }
 
 .hero{
@@ -51,7 +46,6 @@ transform:translateY(-500px);
 }
 
 .glass{
-
     width:min(850px,95%);
     background:rgba(255,255,255,.08);
     backdrop-filter:blur(20px);
@@ -60,7 +54,6 @@ transform:translateY(-500px);
     padding:60px;
     text-align:center;
     box-shadow:0 20px 60px rgba(0,0,0,.45);
-
 }
 
 .emoji{
@@ -68,24 +61,19 @@ transform:translateY(-500px);
 }
 
 h1{
-
 font-size:70px;
 margin:20px 0;
 color:#ffd3e0;
 text-shadow:0 0 25px #ff8db5;
-
 }
 
 .hero p{
-
 font-size:22px;
 line-height:1.8;
 margin-bottom:40px;
-
 }
 
 button{
-
 background:#ff4f8f;
 color:white;
 border:none;
@@ -94,18 +82,14 @@ font-size:20px;
 border-radius:50px;
 cursor:pointer;
 transition:.3s;
-
 }
 
 button:hover{
-
 transform:scale(1.08);
 box-shadow:0 0 30px #ff4f8f;
-
 }
 
 .memory{
-
 width:min(900px,92%);
 margin:100px auto;
 background:rgba(255,255,255,.06);
@@ -114,42 +98,26 @@ padding:45px;
 border-radius:25px;
 box-shadow:0 15px 40px rgba(0,0,0,.35);
 
-opacity:0;
-transform:translateY(60px);
-
-transition:1s;
-
-}
-
-.memory.show{
-
 opacity:1;
-transform:translateY(0);
-
+transform:none;
 }
 
 .memory h2{
-
 font-size:42px;
 margin-bottom:25px;
 color:#ffd3e0;
 text-shadow:0 0 15px #ff8db5;
-
 }
 
 .memory p{
-
 font-size:20px;
 line-height:2;
 color:#ececec;
-
 }
 
 footer{
-
 text-align:center;
 padding:80px 20px;
 font-size:18px;
 color:#bbb;
-
 }
